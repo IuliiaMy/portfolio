@@ -1,0 +1,314 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  header {
+      background-color: #dddddd;
+  }
+  
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #ececec;
+  }
+  
+  h1{
+      font-size: 30px;
+      font-weight: 700;
+  }
+  
+  a {
+      color: #444546;
+      text-decoration: none;
+  }
+  
+  a:visited {
+      color: #444546;
+  }
+  
+  a:hover{
+      color: #8d10fd;
+      text-decoration: none;
+  }
+  
+  a:focus{
+      color: #8d10fd;
+      text-decoration: none;
+  }
+  
+  a:active {
+      color: #8d10fd;
+  }
+  
+  input, texture, select, button, textarea {
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+    }
+  
+    button{
+      border: none;
+      display: inline-block;
+      font-family: inherit;
+      background-color: #dddddd;
+      color: #444546;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      -webkit-transition: opacity 0.2s, 0.4s font-size;
+      -o-transition: opacity 0.2s, 0.4s font-size;
+      transition: opacity 0.2s, 0.4s font-size;
+    }
+  
+    input{
+      border: none;
+      display: inline-block;
+      font-family: inherit;
+      background-color: #dddddd;
+      color: #444546;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      -webkit-transition: opacity 0.2s, 0.4s font-size;
+      -o-transition: opacity 0.2s, 0.4s font-size;
+      transition: opacity 0.2s, 0.4s font-size;
+    }
+  
+    select{
+      border: none;
+      display: inline-block;
+      font-family: inherit;
+      background-color: #dddddd;
+      color: #444546;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      -webkit-transition: opacity 0.2s, 0.4s font-size;
+      -o-transition: opacity 0.2s, 0.4s font-size;
+      transition: opacity 0.2s, 0.4s font-size;
+    }
+  
+    textarea{
+      border: none;
+      display: inline-block;
+      font-family: inherit;
+      background-color: #dddddd;
+      color: #444546;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      -webkit-transition: opacity 0.2s, 0.4s font-size;
+      -o-transition: opacity 0.2s, 0.4s font-size;
+      transition: opacity 0.2s, 0.4s font-size;
+    }
+  
+    .button{
+      border: none;
+      display: inline-block;
+      font-family: inherit;
+      background-color: #dddddd;
+      color: #444546;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      -webkit-transition: opacity 0.2s, 0.4s font-size;
+      -o-transition: opacity 0.2s, 0.4s font-size;
+      transition: opacity 0.2s, 0.4s font-size;
+    }
+  
+    button:hover, button:focus, .button:hover, .button:focus {
+      cursor: pointer;
+      opacity: 0.8;
+      font-size:18px;
+    }
+  
+    input:hover, input:focus {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  
+    textarea:hover, textarea:focus {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  
+    table {
+      padding: 20px;
+    }
+  
+    th {
+      padding: 20px;
+    }
+  
+    td {
+      padding: 20px;
+    }
+  
+    .profile{
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  
+    .button__secondary {
+      -webkit-box-ordinal-group: none;
+          -ms-flex-order: none;
+              order: none;
+      background-color:#8d10fd;
+      color: #dddddd;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    }
+  
+    .profile__portrait{
+      float: left;
+      min-width:150px;
+      max-width: 300px; 
+      min-height:200px;
+      max-height: 400px;
+      margin-right: 40px; 
+      height: auto;
+    }
+    
+    .image-cropper{
+      float: left;
+      width: 300px;
+      height: 300px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 40px;
+    }
+  
+    .page-footer{
+      clear: both;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center;
+    }
+  
+    .page-header{
+      display:-webkit-box;
+      display:-ms-flexbox;
+      display:flex;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .page-header__item{
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 200px;
+              flex: 0 1 200px;
+    }
+  
+    .page-header__item:last-child{
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      text-align: right;
+    }
+  
+    .navigation-list{
+      list-style-type: none;
+    }
+  
+    .navigation-list li {
+      display: inline-block;
+      margin-left: 15px;
+    }
+  
+    .grid{
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+    }
+  
+    .grid__item {
+      background-color: lightgray;
+      padding: 20px;
+    }
+  
+  .contact-me__box{
+    padding: 20px;
+  }
+  
+  .work-grid{
+    padding: 20px;
+  }
+  
+  @-webkit-keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #8d10fd;
+    }
+  }
+  
+  @keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #8d10fd;
+    }
+  }
+  .elbphilarmonie{
+    width: 512px;
+    height: 512px;
+    margin-top: -50px;
+  }
+  .wall1{
+    -webkit-animation: 4s color-change infinite alternate linear;
+            animation: 4s color-change infinite alternate linear;
+  }
+  
+  @media all and (max-width: 500px) {
+    .grid {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+  }
+  @media all and (min-width: 500px) and (max-width: 750px){
+    .grid {
+      -ms-grid-columns: 1fr 20px 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media all and (max-width: 750px) {
+    .grid {
+      grid-gap: 10px;
+    }
+    .grid__item:last-child {
+      grid-column: auto / auto;
+      grid-row: auto / auto;
+    }
+    h1 {
+      font-size: 22px;
+    }
+  }
