@@ -46,7 +46,7 @@ a:active {
     color: var(--purple);
 }
 
-input, texture, select, button, textarea {
+input, select, button, textarea {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
