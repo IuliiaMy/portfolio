@@ -80,8 +80,20 @@ input, select, button, textarea {
     opacity: 0.8;
   }
 
-  table, th, td {
-    padding: var(--standard-padding);
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section .col {
+    flex: 1 1 auto;
+  }
+  
+  section .line-break {
+    flex-basis: 100%;
+    width: 0px; 
+    height: 0px; 
+    overflow: hidden;
   }
 
   .profile{

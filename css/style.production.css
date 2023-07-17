@@ -143,16 +143,26 @@ input, select, button, textarea {
     opacity: 0.8;
   }
 
-  table {
-    padding: 20px;
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-
-  th {
-    padding: 20px;
+  
+  section .col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
   }
-
-  td {
-    padding: 20px;
+  
+  section .line-break {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    width: 0px; 
+    height: 0px; 
+    overflow: hidden;
   }
 
   .profile{
