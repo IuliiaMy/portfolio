@@ -143,28 +143,20 @@ input, select, button, textarea {
     opacity: 0.8;
   }
 
-  section {
+  header, .row {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    display: flex;  /* aligns all child elements (flex items) in a row */
+    
   }
   
-  section .col {
+  .col {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
+        -ms-flex: 1;
+            flex: 1;        /* distributes space on the line equally among items */
+    word-wrap: break-word;
+    padding: 20px;
   }
-  
-  section .line-break {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    width: 0px; 
-    height: 0px; 
-    overflow: hidden;
-  }
-
   .profile{
     max-width: 700px;
     margin: 0 auto;
